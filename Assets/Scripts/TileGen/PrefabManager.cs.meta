@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: ac196500b46904ec4a9ad1c29ad8880d
+timeCreated: 1488775526
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PLAYERPREFAB: {instanceID: 0}
+  - PLAYER: {instanceID: 0}
+  - TEXT: {fileID: 1000013632052358, guid: 3f26fc8fabbbf4ff9bbdb8868cc4ee94, type: 2}
+  - NPC: {instanceID: 0}
+  - TILE: {fileID: 1092953581650078, guid: 84f80d06ec80f4e6c812dd12e2eadcc9, type: 2}
+  - PLANT: {fileID: 1097776072878320, guid: 6b8f8ec2f455e41bead14e9d0a7c4c8d, type: 2}
+  - SPRITE: {fileID: 1651833249696024, guid: 8f768d57eb07b4cc2881c5b74945a376, type: 2}
+  - SEED: {fileID: 1651833249696024, guid: 8f768d57eb07b4cc2881c5b74945a376, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

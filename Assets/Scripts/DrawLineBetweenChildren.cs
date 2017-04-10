@@ -9,15 +9,15 @@ public class DrawLineBetweenChildren : MonoBehaviour {
 		if (GetComponent<LineRenderer> () != null) {
 			l = GetComponent<LineRenderer> ();
 		}
+		l.SetVertexCount(transform.childCount +1);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		int i = 0;
-		foreach(Transform t in GetComponentsInChildren<Transform>()) {
-			l.SetVertexCount (i + 1);
-			l.SetPosition (i, t.position);
-			i++;
+		l.SetPosition (0, transform.position);
+		for(int i = 0; i < transform.childCount; i++) {
+			Transform t = transform.GetChild (i);
+			l.SetPosition (i +1, t.position);
 		}
 	}
 }
